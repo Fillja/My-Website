@@ -8,10 +8,7 @@ header .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-<<<<<<< HEAD
   align-items: center;
-=======
->>>>>>> 4256eb779ca3337d345d9f6327407427c6435bc5
 }
 header .container .link-list {
   margin: 0;
