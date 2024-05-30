@@ -101,3 +101,12 @@ html h3, body h3 {
 html h4, body h4 {
   font-size: 20px;
 }
+
+a {
+  text-decoration: none;
+  color: var(--main-theme);
+  transition: all 0.25s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+}
