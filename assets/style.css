@@ -5,6 +5,9 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.products-list .skill-box {
+  max-width: 5rem;
+}
 
 :root {
   --main-theme: #ad9263;
