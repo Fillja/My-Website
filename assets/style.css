@@ -75,6 +75,8 @@ header {
   }
 }
 html, body {
+  margin: 0;
+  padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 300;
