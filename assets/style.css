@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .products-list .skill-box {
-  max-width: 20rem;
+  max-width: 25rem;
   border: 1px solid #666666;
 }
 
