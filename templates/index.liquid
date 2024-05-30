@@ -1,7 +1,7 @@
-<h2>{{ collections['frontpage'].title }}</h2>
+<h2>{{ collections['skills'].title }}</h2>
 
 <div class="product-box">
-    {% for product in collections['frontpage'].products %}
-        {% render 'products-item', product: product %}
+    {% for product in collections['skills'].products %}
+        {% render 'skill-items', product: product %}
     {% endfor %}
 </div>
