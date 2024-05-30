@@ -103,9 +103,7 @@ html h4, body h4 {
 }
 
 a {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   text-decoration: none;
   color: var(--main-theme);
   transition: all 0.25s ease-in-out;
