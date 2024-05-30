@@ -7,7 +7,7 @@
     --dark-theme: #91784c;
     --main-gray: #1c1c1c;
     --light-gray: #666668;
-    --bright-gray: #f4f4f4;
+    --bright-gray: #c1c1c1;
     --text-dark: #333333;
     --text-white: #fff;
     --text-gray: #777777;
@@ -42,9 +42,11 @@
 }
 
 html, body {
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 
     h1, h2, h3, h4, h5, h6{
         font-family: 'DM sans', sans-serif;
@@ -67,5 +69,16 @@ html, body {
     }
     h4{
         font-size: 20px;
+    }
+}
+
+a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--main-theme);
+    transition: all 0.25s ease-in-out;
+
+    &:hover{
+        text-decoration: underline;
     }
 }
