@@ -1,6 +1,6 @@
 <h2>{{ collections['skills'].title }}</h2>
 
-<div class="product-box">
+<div class="products-list">
     {% for product in collections['skills'].products %}
         {% render 'skill-items', product: product %}
     {% endfor %}
