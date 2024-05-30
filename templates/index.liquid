@@ -1,7 +1,3 @@
-<h2>{{ collections['frontpage'].title }}</h2>
-
-<div class="product-box">
-    {% for product in collections['frontpage'].products %}
-        {% render 'products-item', product: product %}
-    {% endfor %}
+<div class="content">
+    {% section 'skills' %}
 </div>
