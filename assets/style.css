@@ -4,6 +4,9 @@
   --main-theme: #ad9263;
   --light-theme: #e5dccd;
   --dark-theme: #91784c;
+  --main-gray: #2a2a2a;
+  --light-gray: #666668;
+  --bright-gray: #f4f4f4;
 }
 
 .wrapper {
