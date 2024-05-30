@@ -12,6 +12,9 @@
   padding: 2rem;
   box-shadow: 2px 2px 2px 2px var(--bright-gray);
 }
+.products-list .skill-box li {
+  margin-left: 0;
+}
 
 :root {
   --main-theme: #ad9263;
