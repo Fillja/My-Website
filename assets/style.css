@@ -34,7 +34,7 @@ header .link-list {
 .skills .products-list .skill-box li {
   margin-left: -20px;
   margin-bottom: 10px;
-  color: var(--dark-theme);
+  color: var(--light-gray);
   font-size: 14px;
   font-weight: 500;
 }
