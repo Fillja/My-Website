@@ -3,11 +3,13 @@
 header {
   background-color: var(--main-gray);
   padding: 2rem 0;
+}
+header .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-header .link-list {
+header .container .link-list {
   margin: 0;
   padding: 0;
 }
