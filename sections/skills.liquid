@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+<section class="skills">
+    <div class="container">
+        <h1>{{ collections['skills'].title }}</h1>
+    
+        <div class="products-list">
+            {% for product in collections['skills'].products %}
+                {% render 'skill-items', product: product %}
+            {% endfor %}
+        </div>
+    </div>
+=======
 <section class="skills">
     <div class="container">
         <h6>{{ collections['skills'].title }}</h6>
@@ -8,4 +20,5 @@
             {% endfor %}
         </div>
     </div>
+>>>>>>> 25063dbf90c27e6f299a3e074499d038a02a4de1
 </section>
