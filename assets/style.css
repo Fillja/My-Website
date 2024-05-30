@@ -3,7 +3,8 @@
 header {
   background-color: var(--main-gray);
   color: var(--text-white);
-  border: none !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .skills {
