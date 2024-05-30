@@ -10,6 +10,7 @@ header .link-list {
 }
 
 .skills {
+  background-color: var(--bright-gray);
   padding: 5rem;
 }
 .skills .products-list {
