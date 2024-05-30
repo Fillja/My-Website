@@ -19,7 +19,7 @@
 }
 .skills .products-list .skill-box:hover {
   opacity: 0.7;
-  transition: all ease-in-out 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
