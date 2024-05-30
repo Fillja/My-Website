@@ -79,3 +79,14 @@ html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3,
   font-family: "DM sans", sans-serif;
   font-weight: 700;
 }
+html h1, body h1 {
+  font-size: 60px;
+}
+@media (min-width: 768px) {
+  html h1, body h1 {
+    font-size: 50px;
+  }
+}
+html h2, body h2 {
+  font-size: 45px;
+}
