@@ -12,6 +12,7 @@ header .link-list {
 .skills {
   background-color: var(--bright-gray);
   padding: 5rem;
+  color: var(--text-dark);
 }
 .skills .products-list {
   display: grid;
@@ -59,7 +60,6 @@ header .link-list {
 .skills .products-list .skill-box li {
   margin-left: -20px;
   margin-bottom: 10px;
-  color: var(--bright-gray);
   font-size: 14px;
   font-weight: 500;
 }
