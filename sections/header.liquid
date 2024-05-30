@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <img src="{{ 'golden-logo.png' | asset_url }}" width="30px" height="30px">
+        <img src="{{ 'golden-logo.png' | image_url }}" width="30px" height="30px">
         <ul class="link-list">
             {% for link in linklists.main-menu.links -%}
                 {{ link.title | link_to: link.url }}
