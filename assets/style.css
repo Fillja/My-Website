@@ -4,7 +4,7 @@ header {
   background-color: var(--main-gray);
   padding: 2rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 header .link-list {
