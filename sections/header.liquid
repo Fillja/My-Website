@@ -1,5 +1,4 @@
 <header class="container">
-    <h1> {{ shop.name }}</h1>   
         <ul class="link-list">
             {% for link in linklists.main-menu.links -%}
                 {{ link.title | link_to: link.url }}
