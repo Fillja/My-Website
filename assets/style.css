@@ -3,9 +3,6 @@
 header {
   background-color: var(--main-gray);
 }
-header .link-list {
-  max-height: 10px;
-}
 
 .skills {
   background-color: var(--main-gray);
