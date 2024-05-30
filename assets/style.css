@@ -12,7 +12,7 @@
   gap: 2rem;
 }
 .skills .products-list .skill-box {
-  max-height: 15rem;
+  max-height: 18rem;
   border: 1px solid var(--light-gray);
   padding: 2rem;
   box-shadow: 2px 2px 2px 2px var(--light-gray);
