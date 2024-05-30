@@ -3,6 +3,9 @@
 header {
   background-color: var(--main-gray);
   padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 header .link-list {
   margin: 0;
