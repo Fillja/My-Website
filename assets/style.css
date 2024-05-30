@@ -56,6 +56,7 @@ header .link-list {
   opacity: 0.75;
   transition: all 0.4s ease-in-out;
   box-shadow: 3px 3px 3px 3px var(--light-gray);
+  background-color: #fff;
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
