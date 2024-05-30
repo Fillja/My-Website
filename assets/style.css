@@ -7,7 +7,8 @@
 }
 .products-list .skill-box {
   max-width: 25rem;
-  border: 1px solid hotpink;
+  border: 1px solid var(--light-gray);
+  padding: 2rem;
 }
 
 :root {
