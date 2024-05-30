@@ -17,6 +17,9 @@
   padding: 2rem;
   box-shadow: 2px 2px 2px 2px var(--light-gray);
 }
+.skills .products-list .skill-box:hover {
+  opacity: 0.8;
+}
 .skills .products-list .skill-box li {
   margin-left: -20px;
   margin-bottom: 5px;
