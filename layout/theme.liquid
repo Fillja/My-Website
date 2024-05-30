@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html> 
 
     <head>
@@ -12,4 +13,20 @@
         {{ 'script.js' | asset_url | script_tag }}
     </body>
     
+=======
+<html> 
+
+    <head>
+        {{ content_for_header }}
+        {{ 'style.css' | asset_url | stylesheet_tag }}
+        <script defer src="https://kit.fontawesome.com/46336025a2.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        {% section 'header' %}
+        {{ content_for_layout }}
+        {{ 'script.js' | asset_url | script_tag }}
+    </body>
+    
+>>>>>>> 4256eb779ca3337d345d9f6327407427c6435bc5
 </html>
