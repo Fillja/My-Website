@@ -4,12 +4,12 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
 }
 .products-list .skill-box {
   max-width: 25rem;
   border: 1px solid var(--light-gray);
   padding: 2rem;
-  gap: 2rem;
 }
 
 :root {
