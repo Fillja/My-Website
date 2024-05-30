@@ -54,7 +54,7 @@ header .link-list {
 }
 .skills .products-list .skill-box:hover {
   opacity: 0.75;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
   box-shadow: 2px 2px 2px 2px var(--light-gray);
   background-color: #393939;
 }
