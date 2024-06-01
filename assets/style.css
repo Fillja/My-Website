@@ -30,7 +30,7 @@ header .container .social-media i {
 
 .skills {
   background-color: var(--white);
-  padding: 3rem;
+  padding: 5rem;
   color: var(--main-gray);
 }
 .skills .products-list {
@@ -87,7 +87,7 @@ header .container .social-media i {
 .showcase {
   background-color: var(--main-gray);
   color: var(--white);
-  padding: 3rem;
+  padding: 5rem;
 }
 .showcase .container {
   display: flex;
