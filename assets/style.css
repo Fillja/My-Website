@@ -14,14 +14,14 @@ header .container .link-list {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
 }
 header .container .link-list a {
   font-size: 18px;
 }
 header .container .social-media {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 header .container .social-media i {
   font-size: 20px;
