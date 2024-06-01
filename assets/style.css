@@ -29,7 +29,7 @@ header .container .social-media i {
 }
 
 .skills {
-  background-color: var(--bright-gray);
+  background-color: var(--white);
   padding: 3rem;
   color: var(--main-gray);
 }
@@ -79,7 +79,7 @@ header .container .social-media i {
 .skills .products-list .skill-box li {
   margin-left: -20px;
   margin-bottom: 10px;
-  color: var(--bright-gray);
+  color: var(--main-gray);
   font-size: 14px;
   font-weight: 500;
 }
