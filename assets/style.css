@@ -19,7 +19,7 @@ header .container .social-media {
   gap: 0.5rem;
 }
 header .container .social-media i {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .skills {
@@ -100,7 +100,7 @@ a:hover {
   align-items: center;
   cursor: pointer;
   border-radius: 6px;
-  padding: 10px 30px;
+  padding: 8px 28px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
