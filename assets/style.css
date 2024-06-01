@@ -96,6 +96,9 @@ header .container .social-media i {
 .showcase .container .showcase-title {
   max-width: 30rem;
 }
+.showcase .container .showcase-title p {
+  color: var(--light-gray);
+}
 .showcase .container .showcase-title a {
   width: auto;
 }
@@ -144,7 +147,7 @@ html, body {
   padding: 0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
 html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "DM sans", sans-serif;
