@@ -86,6 +86,10 @@ header .container .social-media i {
 .showcase {
   background-color: var(--main-gray);
 }
+.showcase .container {
+  display: flex;
+  gap: 2rem;
+}
 
 a {
   font-weight: 500;
@@ -111,11 +115,12 @@ a:hover {
   font-weight: 600;
   gap: 12px;
   transition: all 0.25s ease-in-out;
-  color: var(--white);
+  color: var(--main-gray);
   background-color: var(--main-theme);
   border: none;
 }
 .btn-theme:hover {
+  color: var(--white);
   background-color: var(--dark-theme);
   text-decoration: none;
 }
@@ -158,7 +163,7 @@ html h4, body h4 {
   --white: #fff;
   --main-theme: #ad9263;
   --light-theme: #e5dccd;
-  --dark-theme: #7c6741;
+  --dark-theme: #6e5c3a;
   --main-gray: #1c1c1c;
   --light-gray: #666668;
   --bright-gray: #c1c1c1;
