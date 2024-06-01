@@ -101,6 +101,8 @@ header .container .social-media i {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
   font-size: 4vw;
+  margin: 0;
+  padding: 0;
 }
 .showcase .container .showcase-title p {
   font-size: 20px;
