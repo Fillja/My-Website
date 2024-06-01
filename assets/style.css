@@ -29,7 +29,7 @@ header .container .social-media i {
 }
 
 .skills {
-  background-color: var(--white);
+  background-color: var(--bright-gray);
   padding: 3rem;
   color: var(--main-gray);
 }
