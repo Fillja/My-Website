@@ -93,7 +93,7 @@ header .container .social-media i {
 }
 .showcase .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 }
 .showcase .container .showcase-title {
