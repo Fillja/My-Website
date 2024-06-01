@@ -18,6 +18,9 @@ header .container .social-media {
   display: flex;
   gap: 0.5rem;
 }
+header .container .social-media i {
+  font-size: 14px;
+}
 
 .skills {
   background-color: var(--main-gray);
