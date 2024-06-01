@@ -90,6 +90,7 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   border-radius: 6px;
   padding: 10px 30px;
   font-size: 14px;
