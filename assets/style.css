@@ -30,7 +30,7 @@ header .container .social-media i {
 
 .skills {
   background-color: var(--main-gray);
-  padding: 5rem;
+  padding: 3rem;
   color: var(--white);
 }
 .skills .products-list {
@@ -87,7 +87,7 @@ header .container .social-media i {
 .showcase {
   background-color: var(--main-gray);
   color: var(--white);
-  padding: 5rem;
+  padding: 3rem;
 }
 .showcase .container {
   display: flex;
@@ -110,7 +110,7 @@ header .container .social-media i {
   margin-bottom: 1rem;
 }
 .showcase .container .showcase-title a {
-  width: auto;
+  max-width: auto;
 }
 .showcase .container img {
   border: solid 2px var(--main-theme);
