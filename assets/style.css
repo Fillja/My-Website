@@ -100,6 +100,7 @@ header .container .social-media i {
 .showcase .container .showcase-title {
   max-width: 33rem;
   position: relative;
+  z-index: 1;
 }
 .showcase .container .showcase-title h1 {
   font-family: "Cormorant", sans-serif;
@@ -118,7 +119,8 @@ header .container .social-media i {
 .showcase .container .showcase-title .line {
   position: absolute;
   left: 2rem;
-  top: 2rem;
+  top: 3rem;
+  z-index: 0;
 }
 .showcase .container .profile-image {
   border: solid 2px var(--main-theme);
