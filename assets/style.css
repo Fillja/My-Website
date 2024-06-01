@@ -89,7 +89,7 @@ header .container .social-media i {
 }
 .showcase .container {
   display: flex;
-  gap: 5rem;
+  gap: 8rem;
   justify-content: center;
   align-items: center;
 }
