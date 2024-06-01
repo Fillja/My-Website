@@ -88,6 +88,7 @@ header .container .social-media i {
   background-color: var(--main-gray);
   color: var(--white);
   padding: 5rem;
+  align-items: center;
   min-height: 100vh;
 }
 .showcase .container {
