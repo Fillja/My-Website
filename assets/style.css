@@ -123,7 +123,8 @@ header .container .social-media i {
   z-index: -1;
 }
 .showcase .container .profile-image {
-  box-shadow: 2px 2px 2px 2px var(--light-gray);
+  border: solid 2px var(--main-theme);
+  box-shadow: 2px 2px 2px 2px var(--bright-gray);
   border-radius: 15px;
 }
 
