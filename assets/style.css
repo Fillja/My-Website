@@ -100,7 +100,7 @@ header .container .social-media i {
 .showcase .container .showcase-title h1 {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 4vw;
 }
 .showcase .container .showcase-title p {
   color: var(--light-gray);
