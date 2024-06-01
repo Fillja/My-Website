@@ -74,7 +74,7 @@ header .container .social-media i {
 .skills .products-list .skill-box:hover {
   opacity: 0.75;
   transition: all 0.5s ease-in-out;
-  background-color: #cccccc;
+  background-color: #e7e7e7;
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
