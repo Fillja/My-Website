@@ -104,7 +104,7 @@ button {
   border: none;
 }
 .btn-theme:hover {
-  background-color: var(--main-gray);
+  background-color: var(--dark-theme);
 }
 
 html, body {
