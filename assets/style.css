@@ -97,6 +97,9 @@ header .container .social-media i {
 .showcase .container .showcase-title {
   max-width: 30rem;
 }
+.showcase .container .showcase-title h1 {
+  font-family: "Cormorant", sans-serif;
+}
 .showcase .container .showcase-title p {
   color: var(--light-gray);
 }
