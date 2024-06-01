@@ -11,6 +11,21 @@ header {
         .link-list{
             margin: 0;
             padding: 0;
+            display: flex;
+            gap: 1rem;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+
+        .social-media{
+            display: flex;
+            gap: 1rem;
+
+            i{
+                font-size: 20px;
+            }
         }
     }
 }

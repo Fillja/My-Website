@@ -7,5 +7,34 @@ a{
 
     &:hover{
         text-decoration: underline;
+        color: var(--light-theme);
+    }
+}
+
+@mixin button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 12px;
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-theme {
+    @include button;
+    color: var(--main-gray);
+    background-color: var(--main-theme);
+    border: none;
+
+    &:hover{
+        color: var(--white);
+        background-color: var(--dark-theme);
+        text-decoration: none;
     }
 }

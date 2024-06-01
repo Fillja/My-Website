@@ -1,0 +1,50 @@
+.showcase{
+    background-color: var(--main-gray);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+    .container{
+        display: flex;
+        justify-content: start;
+        gap: 10rem;
+        align-items: center;
+
+        .showcase-title{
+            max-width: 33rem;
+            position: relative;
+            z-index: 1;
+
+            h1{
+                font-family: 'Cormorant', sans-serif;
+                font-weight: 700;
+                font-size: 4vw;
+                margin-bottom: 2rem;
+            }
+
+            p{
+                font-size: 20px;
+                color: var(--light-gray);
+                margin-bottom: 2rem;
+            }
+
+            a{
+                width: 5rem;
+            }
+
+            .line{
+                position: absolute;
+                left: 2rem;
+                top: 4rem;
+                z-index: -1;
+            }
+        }
+
+        .profile-image{
+            border: solid 2px var(--main-theme);
+            box-shadow: 1px 1px 1px 1px var(--bright-gray);
+            border-radius: 15px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 .skills{
-    background-color: var(--main-gray);
+    background-color: var(--white);
     padding: 5rem;
-    color: var(--white);
+    color: var(--main-gray);
 
     .products-list {
         display: grid;
@@ -45,13 +45,14 @@
             &:hover{
                 opacity: 0.75;
                 transition: all 0.5s ease-in-out;
-                background-color: #3e3e3e;
+                // background-color: #3e3e3e;
+                background-color: #dbdbdb;
             }
 
             li{
                 margin-left: -20px;
                 margin-bottom: 10px;
-                color: var(--bright-gray);
+                color: var(--main-gray);
                 font-size: 14px;
                 font-weight: 500;
             }
