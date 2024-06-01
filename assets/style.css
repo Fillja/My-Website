@@ -120,7 +120,7 @@ header .container .social-media i {
   position: absolute;
   left: 2rem;
   top: 3rem;
-  z-index: 0;
+  z-index: -1;
 }
 .showcase .container .profile-image {
   border: solid 2px var(--main-theme);
