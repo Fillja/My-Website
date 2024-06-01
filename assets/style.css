@@ -102,12 +102,12 @@ header .container .social-media i {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
   font-size: 4vw;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 1rem;
 }
 .showcase .container .showcase-title p {
   font-size: 20px;
   color: var(--light-gray);
+  margin-bottom: 1rem;
 }
 .showcase .container .showcase-title a {
   width: auto;
