@@ -29,9 +29,9 @@ header .container .social-media i {
 }
 
 .skills {
-  background-color: var(--main-gray);
+  background-color: var(--white);
   padding: 3rem;
-  color: var(--white);
+  color: var(--main-gray);
 }
 .skills .products-list {
   display: grid;
