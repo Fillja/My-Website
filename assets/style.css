@@ -96,6 +96,9 @@ header .container .social-media i {
 .showcase .container .showcase-title {
   max-width: 30rem;
 }
+.showcase .container .showcase-title a {
+  width: auto;
+}
 .showcase .container img {
   border: solid 2px var(--main-theme);
   box-shadow: 1px 1px 1px 1px var(--bright-gray);
