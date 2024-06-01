@@ -71,6 +71,10 @@ header .container .link-list {
   font-weight: 500;
 }
 
+.showcase {
+  background-color: var(--main-gray);
+}
+
 a {
   font-weight: 500;
   text-decoration: none;
