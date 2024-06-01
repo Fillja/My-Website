@@ -111,7 +111,7 @@ header .container .social-media i {
   margin-bottom: 1rem;
 }
 .showcase .container .showcase-title a {
-  max-width: auto;
+  width: 5rem;
 }
 .showcase .container img {
   border: solid 2px var(--main-theme);
