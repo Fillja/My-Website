@@ -102,13 +102,11 @@ header .container .social-media i {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
   font-size: 4vw;
-  margin: 0;
   margin-bottom: 1rem;
 }
 .showcase .container .showcase-title p {
   font-size: 20px;
   color: var(--light-gray);
-  margin: 0;
   margin-bottom: 1rem;
 }
 .showcase .container .showcase-title a {
@@ -162,6 +160,7 @@ html, body {
   font-weight: 500;
 }
 html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
   font-family: "DM sans", sans-serif;
   font-weight: 700;
 }
