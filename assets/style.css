@@ -100,7 +100,7 @@ button {
 }
 
 .btn-theme {
-  color: var(--main-gray);
+  color: var(--light-gray);
   background-color: var(--main-theme);
   border: none;
 }
