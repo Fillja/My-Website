@@ -96,6 +96,9 @@ header .container .social-media i {
 .showcase .container .showcase-title {
   max-width: 30rem;
 }
+.showcase .container img {
+  border-radius: 15px;
+}
 
 a {
   font-weight: 500;
