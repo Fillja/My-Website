@@ -91,6 +91,9 @@ header .container .social-media i {
   display: flex;
   gap: 2rem;
 }
+.showcase .container .showcase-title {
+  max-width: 25rem;
+}
 
 a {
   font-weight: 500;
