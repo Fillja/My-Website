@@ -114,7 +114,7 @@ header .container .social-media i {
 .showcase .container .showcase-title a {
   width: 5rem;
 }
-.showcase .container img {
+.showcase .container .profile-image {
   border: solid 2px var(--main-theme);
   box-shadow: 1px 1px 1px 1px var(--bright-gray);
   border-radius: 15px;
