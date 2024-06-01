@@ -97,7 +97,7 @@ header .container .social-media i {
   max-width: 30rem;
 }
 .showcase .container img {
-  border: solid 2px var(--light-gray);
+  border: solid 2px var(--main-theme);
   box-shadow: 1px 1px 1px 1px var(--bright-gray);
   border-radius: 15px;
 }
