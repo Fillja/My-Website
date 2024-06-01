@@ -100,6 +100,7 @@ button {
 .btn-theme {
   color: var(--white);
   background-color: var(--main-theme);
+  border: none;
 }
 .btn-theme:hover {
   background-color: var(--main-gray);
