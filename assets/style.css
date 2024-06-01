@@ -88,6 +88,9 @@ button {
   align-items: center;
   border-radius: 6px;
   padding: 8px 28px;
+  font-size: 14px;
+  gap: 12px;
+  transition: all 0.25s ease-in-out;
 }
 
 html, body {
