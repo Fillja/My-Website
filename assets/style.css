@@ -94,6 +94,7 @@ header .container .social-media i {
 .showcase .container {
   display: flex;
   justify-content: start;
+  gap: 4rem;
   align-items: center;
 }
 .showcase .container .showcase-title {
