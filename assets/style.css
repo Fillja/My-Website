@@ -81,6 +81,15 @@ a:hover {
   text-decoration: underline;
 }
 
+button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 8px 28px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
