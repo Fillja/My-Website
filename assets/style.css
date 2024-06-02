@@ -33,6 +33,9 @@ header .container .social-media i {
   padding: 5rem;
   color: var(--main-gray);
 }
+.skills h1 {
+  margin-bottom: 3rem;
+}
 .skills .products-list {
   display: grid;
   grid-template-rows: 1fr 1fr;
