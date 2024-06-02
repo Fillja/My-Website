@@ -86,6 +86,9 @@ header .container .social-media i {
 .skills .products-list .skill-box .skill-image {
   margin-bottom: 2rem;
 }
+.skills .products-list .skill-box .skill-title {
+  margin-bottom: 1rem;
+}
 
 .showcase {
   background-color: var(--main-gray);
