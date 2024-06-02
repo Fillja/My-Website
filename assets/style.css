@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 header {
   background-color: var(--main-gray);
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 header .container .top-header {
   display: flex;
@@ -11,13 +11,16 @@ header .container .top-header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1rem;
-  border-bottom: solid 1px var(--light-gray);
+  border-bottom: solid 1px #2b2b2b;
 }
 header .container .top-header .contact-info {
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 200;
   display: flex;
   gap: 2rem;
+}
+header .container .top-header .contact-info a {
+  text-decoration: none;
 }
 header .container .top-header .contact-info i {
   margin-right: 0.5rem;
@@ -116,7 +119,7 @@ header .container .bottom-header .link-list a {
 
 .showcase {
   color: var(--white);
-  min-height: 90vh;
+  height: 85vh;
   position: relative;
 }
 .showcase .background-image {
@@ -160,6 +163,12 @@ header .container .bottom-header .link-list a {
   left: 2rem;
   top: 4rem;
   z-index: -1;
+}
+
+.about .profile-image {
+  border: solid 2px var(--main-theme);
+  box-shadow: 1px 1px 1px 1px var(--bright-gray);
+  border-radius: 15px;
 }
 
 footer {
