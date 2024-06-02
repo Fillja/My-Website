@@ -169,10 +169,15 @@ header .container .bottom-header .link-list a {
   background-color: var(--main-gray);
   padding: 5rem;
 }
-.about .about-content {
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .container .about-content {
   border: solid 1px var(--light-gray);
 }
-.about .profile-image {
+.about .container .profile-image {
   border: solid 2px var(--main-theme);
   box-shadow: 1px 1px 1px 1px var(--bright-gray);
   border-radius: 15px;
