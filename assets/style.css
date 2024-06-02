@@ -11,6 +11,9 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+header .container .home-link i {
+  font-size: 20px;
+}
 header .container .link-list {
   margin: 0;
   padding: 0;
@@ -99,7 +102,7 @@ header .container .social-media a {
   position: relative;
 }
 .showcase .background-image {
-  background-image: url("{{'template-image1.jpg' | asset_url }}");
+  background-image: url("//robin-gombkoto.myshopify.com/cdn/shop/t/2/assets/template-image1.jpg?v=145573164397908255611717352436");
   background-size: cover;
   background-color: transparent;
   filter: brightness(20%);
