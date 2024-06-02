@@ -80,7 +80,7 @@ header .container .social-media a {
 .skills .products-list .skill-box:hover {
   opacity: 0.9;
   transition: all 0.5s ease-in-out;
-  background-color: var(--light-theme);
+  background-color: #2b2b2b;
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
