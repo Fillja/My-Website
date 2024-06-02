@@ -177,6 +177,7 @@ header .container .bottom-header .link-list a {
 }
 .about .container .about-content {
   max-width: 20rem;
+  padding: 2rem;
   border: solid 1px var(--light-gray);
 }
 .about .container .profile-image {
