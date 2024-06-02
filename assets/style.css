@@ -170,17 +170,17 @@ header .container .bottom-header .link-list a {
   color: var(--white);
   padding: 5rem;
 }
-.about .container {
+.about .container .about-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about .container .about-content {
+.about .container .about-content .about-text {
   max-width: 20rem;
   padding: 2rem;
-  border: solid 1px var(--light-gray);
+  border: solid 1px #2b2b2b;
 }
-.about .container .profile-image {
+.about .container .about-content .profile-image {
   border: solid 2px var(--main-theme);
   box-shadow: 1px 1px 1px 1px var(--bright-gray);
   border-radius: 15px;
