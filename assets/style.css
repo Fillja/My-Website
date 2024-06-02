@@ -5,7 +5,7 @@ header {
   background-color: var(--main-gray);
   padding: 2.5rem 0;
 }
-header .container {
+header .container .top-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,6 +20,12 @@ header .container .top-header .social-media i {
 }
 header .container .top-header .social-media a {
   padding: 4px 12px;
+}
+header .container .bottom-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 header .container .bottom-header .home-link i {
   font-size: 24px;
