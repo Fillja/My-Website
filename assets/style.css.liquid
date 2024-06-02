@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
+header {
+  background-color: var(--main-gray);
+  padding: 2.5rem 0;
+}
+header .container .top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #2b2b2b;
+}
+header .container .top-header .contact-info {
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  gap: 2rem;
+}
+header .container .top-header .contact-info i {
+  margin-right: 0.5rem;
+}
+header .container .top-header .social-media {
+  display: flex;
+  gap: 1rem;
+}
+header .container .top-header .social-media i {
+  font-size: 18px;
+}
+header .container .top-header .social-media a {
+  padding: 4px 12px;
+}
+header .container .bottom-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+header .container .bottom-header .home-link i {
+  font-size: 24px;
+}
+header .container .bottom-header .link-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+header .container .bottom-header .link-list a {
+  font-size: 18px;
+}
+
+.skills {
+  background-color: var(--main-gray);
+  padding: 5rem;
+  color: var(--white);
+}
+.skills h1 {
+  margin-bottom: 3rem;
+}
+.skills .products-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.skills .products-list .skill-box {
+  max-height: 16rem;
+  border: 1px solid var(--light-gray);
+  padding: 2rem;
+}
+.skills .products-list .skill-box:nth-child(1) {
+  border-top: 0px solid var(--light-gray);
+  border-left: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(2) {
+  border-top: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(3) {
+  border-top: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(4) {
+  border-top: 0px solid var(--light-gray);
+  border-right: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(5) {
+  border-bottom: 0px solid var(--light-gray);
+  border-left: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(6) {
+  border-bottom: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(7) {
+  border-bottom: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:nth-child(8) {
+  border-bottom: 0px solid var(--light-gray);
+  border-right: 0px solid var(--light-gray);
+}
+.skills .products-list .skill-box:hover {
+  opacity: 0.9;
+  transition: all 0.5s ease-in-out;
+  background-color: #2b2b2b;
+}
+.skills .products-list .skill-box li {
+  margin-left: -20px;
+  margin-bottom: 10px;
+  color: var(--bright-gray);
+  font-size: 14px;
+  font-weight: 500;
+}
+.skills .products-list .skill-box .skill-image {
+  margin-bottom: 2rem;
+}
+
+.showcase {
+  color: var(--white);
+  min-height: 90vh;
+  position: relative;
+}
+.showcase .background-image {
+  background-image: url("{{'template-image1.jpg' | asset_url }}");
+  background-size: cover;
+  background-color: transparent;
+  filter: brightness(20%);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.showcase .container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.showcase .container .showcase-title {
+  max-width: 33rem;
+  position: relative;
+  z-index: 1;
+}
+.showcase .container .showcase-title h1 {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  margin-bottom: 2rem;
+}
+.showcase .container .showcase-title p {
+  font-family: "Cormorant", sans-serif;
+  font-size: 22px;
+  margin-bottom: 2rem;
+}
+.showcase .container .showcase-title a {
+  width: 5rem;
+}
+.showcase .container .showcase-title .line {
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  z-index: -1;
+}
+
+footer {
+  background-color: var(--main-gray);
+  padding: 2.5rem 0;
+}
+footer .container {
+  display: flex;
+}
+footer .container .link-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+footer .container .link-list a {
+  font-size: 18px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--main-theme);
+  transition: all 0.25s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--light-theme);
+}
+
+.btn-theme {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 12px;
+  transition: all 0.25s ease-in-out;
+  color: var(--main-gray);
+  background-color: var(--main-theme);
+  border: none;
+}
+.btn-theme:hover {
+  color: var(--white);
+  background-color: var(--dark-theme);
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+}
+html h1, body h1 {
+  font-size: 50;
+}
+@media (min-width: 768px) {
+  html h1, body h1 {
+    font-size: 60px;
+  }
+}
+html h2, body h2 {
+  font-size: 35px;
+}
+@media (min-width: 768px) {
+  html h2, body h2 {
+    font-size: 45px;
+  }
+}
+html h3, body h3 {
+  font-size: 25px;
+}
+html h4, body h4 {
+  font-size: 20px;
+}
+
+:root {
+  --white: #fff;
+  --main-theme: #ad9263;
+  --light-theme: #e5dccd;
+  --dark-theme: #6e5c3a;
+  --main-gray: #1c1c1c;
+  --light-gray: #666668;
+  --bright-gray: #c1c1c1;
+  --text-dark: #333333;
+  --text-gray: #777777;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
