@@ -28,6 +28,7 @@ header .container .bottom-header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 header .container .bottom-header .home-link i {
   font-size: 24px;
