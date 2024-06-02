@@ -11,8 +11,18 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+header .container .top-header .social-media {
+  display: flex;
+  gap: 1rem;
+}
+header .container .top-header .social-media i {
+  font-size: 18px;
+}
+header .container .top-header .social-media a {
+  padding: 4px 12px;
+}
 header .container .home-link i {
-  font-size: 20px;
+  font-size: 24px;
 }
 header .container .link-list {
   margin: 0;
@@ -22,16 +32,6 @@ header .container .link-list {
 }
 header .container .link-list a {
   font-size: 18px;
-}
-header .container .social-media {
-  display: flex;
-  gap: 1rem;
-}
-header .container .social-media i {
-  font-size: 18px;
-}
-header .container .social-media a {
-  padding: 4px 12px;
 }
 
 .skills {
@@ -102,7 +102,7 @@ header .container .social-media a {
   position: relative;
 }
 .showcase .background-image {
-  background-image: url("//robin-gombkoto.myshopify.com/cdn/shop/t/2/assets/template-image1.jpg?v=145573164397908255611717352436");
+  background-image: url("{{'template-image1.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
   filter: brightness(20%);
