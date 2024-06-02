@@ -72,7 +72,7 @@ header .container .social-media i {
   border-right: 0px solid var(--light-gray);
 }
 .skills .products-list .skill-box:hover {
-  opacity: 0.75;
+  opacity: 0.9;
   transition: all 0.5s ease-in-out;
   background-color: var(--light-theme);
 }
