@@ -27,6 +27,9 @@ header .container .social-media {
 header .container .social-media i {
   font-size: 20px;
 }
+header .container .social-media a {
+  padding: 6px 24px;
+}
 
 .skills {
   background-color: var(--white);
@@ -93,11 +96,17 @@ header .container .social-media i {
 .showcase {
   color: var(--white);
   min-height: 90vh;
+  position: relative;
 }
 .showcase .background-image {
   background-image: url("{{'template-image1.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
+  filter: brightness(30%);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 .showcase .container {
   min-height: 90vh;
