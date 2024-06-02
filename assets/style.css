@@ -83,6 +83,9 @@ header .container .social-media i {
   font-size: 14px;
   font-weight: 500;
 }
+.skills .products-list .skill-box .skill-image {
+  margin-bottom: 2rem;
+}
 
 .showcase {
   background-color: var(--main-gray);
