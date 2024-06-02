@@ -95,7 +95,7 @@ header .container .social-media i {
   color: var(--white);
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .showcase .container {
   display: flex;
