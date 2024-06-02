@@ -10,6 +10,8 @@ header .container .top-header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px var(--light-gray);
 }
 header .container .top-header .social-media {
   display: flex;
