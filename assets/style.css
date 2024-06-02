@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 header {
   background-color: var(--main-gray);
-  padding: 2rem 0;
+  padding: 2.5rem 0;
 }
 header .container {
   display: flex;
@@ -32,9 +32,9 @@ header .container .social-media a {
 }
 
 .skills {
-  background-color: var(--white);
+  background-color: var(--main-gray);
   padding: 5rem;
-  color: var(--main-gray);
+  color: var(--white);
 }
 .skills h1 {
   margin-bottom: 3rem;
@@ -80,12 +80,11 @@ header .container .social-media a {
 .skills .products-list .skill-box:hover {
   opacity: 0.9;
   transition: all 0.5s ease-in-out;
-  background-color: var(--light-theme);
+  background-color: var(--light-gray);
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
   margin-bottom: 10px;
-  color: var(--main-gray);
   font-size: 14px;
   font-weight: 500;
 }
@@ -102,7 +101,7 @@ header .container .social-media a {
   background-image: url("{{'template-image1.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
-  filter: brightness(30%);
+  filter: brightness(20%);
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -127,8 +126,8 @@ header .container .social-media a {
   margin-bottom: 2rem;
 }
 .showcase .container .showcase-title p {
-  font-size: 20px;
-  color: var(--light-gray);
+  font-family: "Cormorant", sans-serif;
+  font-size: 22px;
   margin-bottom: 2rem;
 }
 .showcase .container .showcase-title a {
