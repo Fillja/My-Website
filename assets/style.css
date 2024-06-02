@@ -141,6 +141,23 @@ header .container .social-media a {
   z-index: -1;
 }
 
+footer {
+  background-color: var(--main-gray);
+  padding: 2.5rem 0;
+}
+footer .container {
+  display: flex;
+}
+footer .container .link-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+footer .container .link-list a {
+  font-size: 18px;
+}
+
 a {
   font-weight: 500;
   text-decoration: none;
