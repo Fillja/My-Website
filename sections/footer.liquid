@@ -1,0 +1,10 @@
+<footer>
+    <div class="container">
+        {% comment %} <img src="{{ 'Luxury-Logo.png' | asset_url }}" width="80px" height="80px"> {% endcomment %}
+        <ul class="link-list">
+            {% for link in linklists.main-menu.links -%}
+                {{ link.title | link_to: link.url }}
+            {%- endfor  %}
+        </ul>
+    </div>
+</footer>
