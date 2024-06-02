@@ -98,11 +98,9 @@ header .container .social-media i {
 .showcase .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10rem;
 }
 .showcase .container .showcase-title {
-  align-self: center;
   max-width: 33rem;
   position: relative;
   z-index: 1;
