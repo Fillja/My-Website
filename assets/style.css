@@ -96,8 +96,10 @@ header .container .social-media i {
   min-height: 90vh;
 }
 .showcase .container {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10rem;
 }
 .showcase .container .showcase-title {
