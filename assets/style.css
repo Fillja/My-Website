@@ -31,7 +31,7 @@ header .container .social-media i {
 .skills {
   background-color: var(--white);
   padding: 5rem;
-  min-height: 100vh;
+  min-height: 90vh;
   color: var(--main-gray);
 }
 .skills h1 {
