@@ -92,10 +92,12 @@ header .container .social-media i {
 
 .showcase {
   color: var(--white);
+  min-height: 90vh;
+}
+.showcase .background-image {
   background-image: url("{{'template-image1.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
-  min-height: 90vh;
 }
 .showcase .container {
   min-height: 90vh;
