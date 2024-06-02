@@ -167,6 +167,7 @@ header .container .bottom-header .link-list a {
 
 .about {
   background-color: var(--main-gray);
+  color: var(--white);
   padding: 5rem;
 }
 .about .container {
@@ -175,6 +176,7 @@ header .container .bottom-header .link-list a {
   align-items: center;
 }
 .about .container .about-content {
+  max-width: 20rem;
   border: solid 1px var(--light-gray);
 }
 .about .container .profile-image {
