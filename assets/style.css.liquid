@@ -154,14 +154,18 @@ header .container .bottom-header .link-list a:hover {
 }
 .showcase .container .showcase-title {
   max-width: 33rem;
-  position: relative;
-  z-index: 1;
 }
 .showcase .container .showcase-title h1 {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
   font-size: 4vw;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.showcase .container .showcase-title h1 .line {
+  position: absolute;
+  z-index: -1;
 }
 .showcase .container .showcase-title p {
   font-family: "Cormorant", sans-serif;
@@ -171,12 +175,6 @@ header .container .bottom-header .link-list a:hover {
 }
 .showcase .container .showcase-title a {
   width: 5rem;
-}
-.showcase .container .showcase-title .line {
-  position: absolute;
-  left: 2rem;
-  top: 4rem;
-  z-index: -1;
 }
 
 .about {
