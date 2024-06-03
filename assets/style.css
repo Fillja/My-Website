@@ -167,7 +167,7 @@ header .container .bottom-header .link-list a:hover {
   position: absolute;
   top: 2rem;
   left: 2rem;
-  z-index: -1;
+  z-index: -2;
 }
 .showcase .container .showcase-title p {
   font-family: "Cormorant", sans-serif;
