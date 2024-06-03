@@ -12,7 +12,7 @@ header .container .top-header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1rem;
-  border-bottom: solid 1px #2b2b2b;
+  border-bottom: solid 1px var(--secondary-gray);
 }
 header .container .top-header .contact-info {
   font-size: 14px;
@@ -44,7 +44,12 @@ header .container .bottom-header {
   margin-top: 1rem;
 }
 header .container .bottom-header .home-link i {
+  color: var(--white);
   font-size: 24px;
+}
+header .container .bottom-header .home-link i:hover {
+  color: var(--main-theme);
+  transition: all 0.25s ease-in-out;
 }
 header .container .bottom-header .link-list {
   margin: 0;
@@ -55,6 +60,9 @@ header .container .bottom-header .link-list {
 header .container .bottom-header .link-list a {
   color: var(--white);
   font-size: 18px;
+}
+header .container .bottom-header .link-list a:hover {
+  color: var(--main-theme);
 }
 
 .skills {
@@ -96,6 +104,9 @@ header .container .bottom-header .link-list a {
 .skills .products-list .skill-box:nth-child(6) {
   border-bottom: 0px solid var(--light-gray);
 }
+.skills .products-list .skill-box:nth-child(6) img {
+  width: 70px;
+}
 .skills .products-list .skill-box:nth-child(7) {
   border-bottom: 0px solid var(--light-gray);
 }
@@ -106,7 +117,7 @@ header .container .bottom-header .link-list a {
 .skills .products-list .skill-box:hover {
   opacity: 0.9;
   transition: all 0.5s ease-in-out;
-  background-color: #2b2b2b;
+  background-color: var(--secondary-gray);
 }
 .skills .products-list .skill-box li {
   margin-left: -20px;
@@ -121,7 +132,7 @@ header .container .bottom-header .link-list a {
 
 .showcase {
   color: var(--white);
-  height: 85vh;
+  height: 87vh;
   position: relative;
 }
 .showcase .background-image {
@@ -143,28 +154,29 @@ header .container .bottom-header .link-list a {
 }
 .showcase .container .showcase-title {
   max-width: 33rem;
-  position: relative;
-  z-index: 1;
 }
 .showcase .container .showcase-title h1 {
   font-family: "Cormorant", sans-serif;
   font-weight: 700;
   font-size: 4vw;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.showcase .container .showcase-title h1 .line {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: -1;
 }
 .showcase .container .showcase-title p {
   font-family: "Cormorant", sans-serif;
   font-size: 22px;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 .showcase .container .showcase-title a {
   width: 5rem;
-}
-.showcase .container .showcase-title .line {
-  position: absolute;
-  left: 2rem;
-  top: 4rem;
-  z-index: -1;
 }
 
 .about {
@@ -283,6 +295,7 @@ html h4, body h4 {
   --light-theme: #e5dccd;
   --dark-theme: #6e5c3a;
   --main-gray: #121212;
+  --secondary-gray: #1e1e1e;
   --light-gray: #666668;
   --bright-gray: #c1c1c1;
   --text-dark: #333333;
