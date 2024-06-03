@@ -136,7 +136,7 @@ header .container .bottom-header .link-list a:hover {
   position: relative;
 }
 .showcase .background-image {
-  background-image: url("//robin-gombkoto.myshopify.com/cdn/shop/t/2/assets/template-image1.jpg?v=145573164397908255611717352436");
+  background-image: url("{{'template-image1.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
   filter: brightness(20%);
@@ -165,9 +165,13 @@ header .container .bottom-header .link-list a:hover {
 }
 .showcase .container .showcase-title h1 .line {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
   z-index: -2;
+}
+@media (min-width: 992px) {
+  .showcase .container .showcase-title h1 .line {
+    top: 4rem;
+    left: 2rem;
+  }
 }
 .showcase .container .showcase-title p {
   font-family: "Cormorant", sans-serif;
