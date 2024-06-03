@@ -1,10 +1,10 @@
 <footer>
     <div class="container">
-        {% comment %} <img src="{{ 'Luxury-Logo.png' | asset_url }}" width="80px" height="80px"> {% endcomment %}
         <ul class="link-list">
             {% for link in linklists.main-menu.links -%}
                 {{ link.title | link_to: link.url }}
             {%- endfor  %}
         </ul>
+        <p>&copy; 2024, Robin Gombkötö - <a href="https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore">Powered by Shopify</a></p>
     </div>
 </footer>
