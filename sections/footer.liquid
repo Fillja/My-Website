@@ -1,10 +1,10 @@
 <footer>
     <div class="container">
+        <p class="copyright">&copy; 2024, Robin Gombkötö - <a href="https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore">Powered by Shopify</a></p>
         <ul class="link-list">
             {% for link in linklists.main-menu.links -%}
                 {{ link.title | link_to: link.url }}
             {%- endfor  %}
         </ul>
-        <p class="copyright">&copy; 2024, Robin Gombkötö - <a href="https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore">Powered by Shopify</a></p>
     </div>
 </footer>
