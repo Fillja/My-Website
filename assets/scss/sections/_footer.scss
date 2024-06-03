@@ -1,0 +1,36 @@
+footer {
+    background-color: var(--main-gray);
+    padding: 2.5rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .link-list{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+            
+            a{
+                color: var(--white);
+                font-size: 18px;
+
+                &:hover{
+                    color: var(--main-theme);
+                }
+            }
+        }
+
+        .copyright {
+            color: var(--white);
+            font-size: 12px;
+            font-weight: 300;
+
+            a{
+                color: var(--white);
+            }
+        }
+    }
+}

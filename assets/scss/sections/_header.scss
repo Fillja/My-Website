@@ -1,31 +1,84 @@
 header {
     background-color: var(--main-gray);
-    padding: 2rem 0;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
 
     .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
 
-        .link-list{
-            margin: 0;
-            padding: 0;
+        .top-header {
             display: flex;
-            gap: 1rem;
-            
-            a{
-                font-size: 18px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1rem;
+            border-bottom: solid 1px var(--secondary-gray);
+
+            .contact-info{
+                font-size: 14px;
+                font-weight: 200;
+                display: flex;
+                gap: 2rem;
+
+                a{ 
+                    text-decoration: none;
+                }
+
+                i{
+                    margin-right: 0.5rem;
+                }
+
+            }
+
+            .social-media{
+                display: flex;
+                gap: 1rem;
+    
+                i{
+                    font-size: 18px;
+                }
+    
+                a{
+                    padding: 4px 12px;
+                }
             }
         }
 
-        .social-media{
+        .bottom-header{
             display: flex;
-            gap: 1rem;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
 
-            i{
-                font-size: 20px;
+            .home-link{
+
+                i{
+                    color: var(--white);
+                    font-size: 24px;
+
+                    &:hover{
+                        color: var(--main-theme);
+                        transition: all 0.25s ease-in-out;
+                    }
+                }
             }
+
+            .link-list{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                gap: 1rem;
+                
+                a{
+                    color: var(--white);
+                    font-size: 18px;
+
+                    &:hover{
+                        color: var(--main-theme);
+                    }
+                }
+            }
+
         }
     }
 }

@@ -1,7 +1,11 @@
 .skills{
-    background-color: var(--white);
+    background-color: var(--main-gray);
     padding: 5rem;
-    color: var(--main-gray);
+    color: var(--white);
+
+    h1{
+        margin-bottom: 3rem;
+    }
 
     .products-list {
         display: grid;
@@ -33,6 +37,9 @@
             }
             &:nth-child(6) {
                 border-bottom: 0px solid var(--light-gray);
+                img {
+                    width: 70px;
+                }
             }
             &:nth-child(7) {
                 border-bottom: 0px solid var(--light-gray);
@@ -43,17 +50,21 @@
             }
 
             &:hover{
-                opacity: 0.75;
+                opacity: 0.9;
                 transition: all 0.5s ease-in-out;
-                background-color: #dbdbdb;
+                background-color: var(--secondary-gray);
             }
 
             li{
                 margin-left: -20px;
                 margin-bottom: 10px;
-                color: var(--main-gray);
+                color: var(--bright-gray);
                 font-size: 14px;
                 font-weight: 500;
+            }
+            
+            .skill-image{
+                margin-bottom: 2rem;
             }
         }
     }

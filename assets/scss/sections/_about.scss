@@ -1,0 +1,34 @@
+.about{
+    background-color: var(--main-gray);
+    color: var(--white);
+    padding: 5rem;
+
+    .container{
+
+        .about-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .about-text{
+                max-width: 20rem;
+                padding: 2rem;
+                border: solid 2px var(--main-theme);
+                border-right: solid 0px #fff;
+                border-top: solid 0px #fff;
+                border-bottom: solid 0px #fff;
+
+                a{
+                    width: 6rem;
+                }
+            }
+        
+            .profile-image{
+                border: solid 2px var(--main-theme);
+                box-shadow: 1px 1px 1px 1px var(--bright-gray);
+                border-radius: 15px;
+            }
+
+        }
+    }
+}

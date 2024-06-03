@@ -1,50 +1,73 @@
 .showcase{
-    background-color: var(--main-gray);
     color: var(--white);
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
+    position: relative;
+
+    .background-image{
+        background-image: url("{{'template-image3.jpg' | asset_url }}");
+        background-size: cover;
+        background-color: transparent;
+        filter: brightness(20%);
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
 
     .container{
+        min-height: 90vh;
         display: flex;
-        justify-content: start;
-        gap: 10rem;
+        justify-content: center;
         align-items: center;
+        gap: 10rem;
 
         .showcase-title{
             max-width: 33rem;
-            position: relative;
-            z-index: 1;
 
             h1{
                 font-family: 'Cormorant', sans-serif;
                 font-weight: 700;
                 font-size: 4vw;
                 margin-bottom: 2rem;
+                position: relative;
+                z-index: 1;
+
+                .line{
+                    position: absolute;
+                    top: -1rem;
+                    left: 2rem;
+                    z-index: -2;
+
+                    @media(min-width: 992px){
+                        top: 0rem;
+                    }
+                    
+                    @media(min-width: 1300px){
+                        top: 1rem;
+                    }
+
+                    @media(min-width: 1500px){
+                        top: 2rem;
+                    }
+
+                    @media(min-width: 1700px){
+                        top: 3.5rem;
+                    }
+                }
             }
 
             p{
-                font-size: 20px;
-                color: var(--light-gray);
+                font-family: 'Cormorant', sans-serif;
+                font-size: 22px;
+                font-weight: 500;
                 margin-bottom: 2rem;
+                z-index: 1;
             }
 
             a{
                 width: 5rem;
+                z-index: 1;
             }
-
-            .line{
-                position: absolute;
-                left: 2rem;
-                top: 4rem;
-                z-index: -1;
-            }
-        }
-
-        .profile-image{
-            border: solid 2px var(--main-theme);
-            box-shadow: 1px 1px 1px 1px var(--bright-gray);
-            border-radius: 15px;
         }
     }
 }
