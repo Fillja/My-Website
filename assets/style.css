@@ -169,9 +169,9 @@ header .container .bottom-header .link-list a:hover {
   left: 2rem;
   z-index: -2;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .showcase .container .showcase-title h1 .line {
-    top: 3rem;
+    top: 5rem;
   }
 }
 @media (min-width: 1190px) {
