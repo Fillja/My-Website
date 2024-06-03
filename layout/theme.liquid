@@ -7,9 +7,11 @@
     </head>
 
     <body>
-        {% section 'header' %}
-        {{ content_for_layout }}
-        {% section 'footer' %}
+        <div class="wrapper">
+            {% section 'header' %}
+            {{ content_for_layout }}
+            {% section 'footer' %}
+        </div>
         {{ 'script.js' | asset_url | script_tag }}
     </body>
     
