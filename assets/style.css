@@ -136,7 +136,7 @@ header .container .bottom-header .link-list a:hover {
   position: relative;
 }
 .showcase .background-image {
-  background-image: url("{{'template-image3.jpg' | asset_url }}");
+  background-image: url("{{'template-image.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
   filter: brightness(20%);
@@ -339,6 +339,19 @@ html h4, body h4 {
   --bright-gray: #c1c1c1;
   --text-dark: #333333;
   --text-gray: #777777;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+body {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .wrapper {
