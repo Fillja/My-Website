@@ -341,17 +341,13 @@ html h4, body h4 {
   --text-gray: #777777;
 }
 
-@keyframes slideInFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 body {
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 0.4s ease 0.4s0;
+}
+
+.showing {
+  opacity: 1;
 }
 
 .wrapper {
