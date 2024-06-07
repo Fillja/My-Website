@@ -1,36 +1,35 @@
 <div class="background-image">
-    
-    <header>
-        <div class="container">
-            <div class="top-header">
-                <div class="contact-info">
-                    <a href="tel:0760373111"><i class="fa-solid fa-phone"></i>0760 37 31 11</a>
-                    <a href="mailto: robin.gombkoto@gmail.com"><i class="fa-solid fa-envelope"></i>robin.gombkoto@gmail.com</a>
-                </div>
-                <div class="social-media">
-                    <a class="btn-theme" href="https://www.linkedin.com/in/robin-gombkötö"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="btn-theme" href="https://github.com/Fillja"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="bottom-header">
-                <a class="home-link" href="/"><i class="fa-solid fa-house"></i></a>
-                <ul class="link-list">
-                    {% for link in linklists.main-menu.links -%}
-                        {{ link.title | link_to: link.url }}
-                    {%- endfor  %}
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <section class="showcase">
-        <div class="container">
-            <div class="showcase-title">
-                <h1><img class="line" src="{{ 'Pattern-line.svg' | asset_url }}" height="250px" width="250px">Charismatic Web Developer based in Karlshamn</h1>
-                <p>Hello, I am Robin Gombkötö, a fullstack web developer. <br/> Welcome to my personal page. </p>
-                <a class="btn-theme" href="/pages/about">About me</a>
-            </div>
-        </div>
-    </section>
-
 </div>
+
+<header>
+    <div class="container">
+        <div class="top-header">
+            <div class="contact-info">
+                <a href="tel:0760373111"><i class="fa-solid fa-phone"></i>0760 37 31 11</a>
+                <a href="mailto: robin.gombkoto@gmail.com"><i class="fa-solid fa-envelope"></i>robin.gombkoto@gmail.com</a>
+            </div>
+            <div class="social-media">
+                <a class="btn-theme" href="https://www.linkedin.com/in/robin-gombkötö"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="btn-theme" href="https://github.com/Fillja"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <a class="home-link" href="/"><i class="fa-solid fa-house"></i></a>
+            <ul class="link-list">
+                {% for link in linklists.main-menu.links -%}
+                    {{ link.title | link_to: link.url }}
+                {%- endfor  %}
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="showcase">
+    <div class="container">
+        <div class="showcase-title">
+            <h1><img class="line" src="{{ 'Pattern-line.svg' | asset_url }}" height="250px" width="250px">Charismatic Web Developer based in Karlshamn</h1>
+            <p>Hello, I am Robin Gombkötö, a fullstack web developer. <br/> Welcome to my personal page. </p>
+            <a class="btn-theme" href="/pages/about">About me</a>
+        </div>
+    </div>
+</section>
