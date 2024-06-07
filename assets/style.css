@@ -223,6 +223,7 @@ header .header-container .bottom-header .link-list a:hover {
 }
 
 .about {
+  background-color: var(--main-gray);
   color: var(--white);
   padding: 5rem;
 }
@@ -249,6 +250,7 @@ header .header-container .bottom-header .link-list a:hover {
 }
 
 footer {
+  background-color: var(--main-gray);
   padding: 2.5rem 0;
 }
 footer .container {
