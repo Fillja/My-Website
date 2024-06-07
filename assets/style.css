@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 header {
-  background-color: var(--main-gray);
+  background-color: transparent;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
@@ -130,12 +130,7 @@ header .container .bottom-header .link-list a:hover {
   margin-bottom: 2rem;
 }
 
-.showcase {
-  color: var(--white);
-  min-height: 90vh;
-  position: relative;
-}
-.showcase .background-image {
+.background-image {
   background-image: url("{{'template-image.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
@@ -144,6 +139,12 @@ header .container .bottom-header .link-list a:hover {
   z-index: -1;
   width: 100%;
   height: 100%;
+}
+
+.showcase {
+  color: var(--white);
+  min-height: 90vh;
+  position: relative;
 }
 .showcase .container {
   min-height: 90vh;
@@ -326,6 +327,19 @@ html h3, body h3 {
 }
 html h4, body h4 {
   font-size: 20px;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html h1, html h2, html h3, html h4.h5, html h6, html p, body h1, body h2, body h3, body h4.h5, body h6, body p {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 :root {
