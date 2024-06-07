@@ -1,16 +1,16 @@
 <html> 
 
     <head>
-        {{ content_for_header }}
+        {% comment %} {{ content_for_header }} {% endcomment %}
         {{ 'style.css' | asset_url | stylesheet_tag }}
         <script defer src="https://kit.fontawesome.com/46336025a2.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <div class="wrapper">
+        {% comment %} <div class="wrapper"> {% endcomment %}
             {% comment %} {{ content_for_layout }} {% endcomment %}
             {% comment %} {% section 'footer' %} {% endcomment %}
-        </div>
+        {% comment %} </div> {% endcomment %}
         {{ 'script.js' | asset_url | script_tag }}
     </body>
     
