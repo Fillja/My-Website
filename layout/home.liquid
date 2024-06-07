@@ -9,7 +9,7 @@
     <body>
         <div class="wrapper">
             {{ content_for_layout }}
-            {% section 'footer' %}
+            {% comment %} {% section 'footer' %} {% endcomment %}
         </div>
         {% comment %} {{ 'script.js' | asset_url | script_tag }} {% endcomment %}
     </body>
