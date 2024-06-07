@@ -87,6 +87,7 @@ header .header-container .bottom-header .link-list a:hover {
 }
 
 .skills {
+  background-color: var(--main-gray);
   padding: 5rem;
   color: var(--white);
 }
