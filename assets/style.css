@@ -132,7 +132,7 @@ header .container .bottom-header .link-list a:hover {
 
 .showcase {
   color: var(--white);
-  min-height: 90vh;
+  min-height: 91vh;
   position: relative;
 }
 .showcase .background-image {
