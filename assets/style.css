@@ -130,7 +130,12 @@ header .container .bottom-header .link-list a:hover {
   margin-bottom: 2rem;
 }
 
-.background-image {
+.showcase {
+  color: var(--white);
+  min-height: 90vh;
+  position: relative;
+}
+.showcase .background-image {
   background-image: url("{{'template-image.jpg' | asset_url }}");
   background-size: cover;
   background-color: transparent;
@@ -139,12 +144,6 @@ header .container .bottom-header .link-list a:hover {
   z-index: -1;
   width: 100%;
   height: 100%;
-}
-
-.showcase {
-  color: var(--white);
-  min-height: 90vh;
-  position: relative;
 }
 .showcase .container {
   min-height: 90vh;
