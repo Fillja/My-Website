@@ -11,7 +11,7 @@
             {{ content_for_layout }}
             {% section 'footer' %}
         </div>
-        {{ 'script.js' | asset_url | script_tag }}
+        {% comment %} {{ 'script.js' | asset_url | script_tag }} {% endcomment %}
     </body>
     
 </html>
