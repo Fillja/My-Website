@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 header {
-  background-color: var(--main-gray);
+  background-color: transparent;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
@@ -378,6 +378,10 @@ html h1, html h2, html h3, html h4.h5, html h6, html p, body h1, body h2, body h
 
 .hidden {
   display: none;
+}
+
+.gray-bg {
+  background-color: var(--main-gray);
 }
 
 .wrapper {
